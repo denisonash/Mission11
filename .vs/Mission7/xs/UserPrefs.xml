@@ -6,9 +6,10 @@
       <File FileName="Mission7/Startup.cs" Line="109" Column="51" />
       <File FileName="Mission7/Models/IdentitySeedData.cs" Line="8" Column="26" />
       <File FileName="Mission7/Models/ViewModels/LoginModel.cs" Line="15" Column="2" />
-      <File FileName="Mission7/Views/Account/Login.cshtml" Line="25" Column="73" />
-      <File FileName="Mission7/Controllers/AccountController.cs" Line="58" Column="34" />
+      <File FileName="Mission7/Views/Account/Login.cshtml" Line="19" Column="68" />
+      <File FileName="Mission7/Controllers/AccountController.cs" Line="57" Column="1" />
       <File FileName="Mission7/Pages/Admin/Index.cshtml" Line="4" Column="23" />
+      <File FileName="Mission7/Pages/Admin/AdminLayout.razor" Line="9" Column="69" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,10 +19,11 @@
               <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True">
                 <Node name="ViewModels" expanded="True" />
-                <Node name="IdentitySeedData.cs" selected="True" />
               </Node>
               <Node name="Pages" expanded="True">
-                <Node name="Admin" expanded="True" />
+                <Node name="Admin" expanded="True">
+                  <Node name="AdminLayout.razor" selected="True" />
+                </Node>
               </Node>
               <Node name="Views" expanded="True">
                 <Node name="Account" expanded="True" />

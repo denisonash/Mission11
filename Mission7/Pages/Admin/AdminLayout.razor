@@ -1,22 +1,32 @@
 ﻿@inherits LayoutComponentBase
 
 <div class="bg-info text-white p-2">
-    <span class="navbar-brand m-lg-2">Little Corner Bookstore Admin</span>
-</div>
-
-<div class="container-fluid">
-    <div class="row p-2">
-        <div class="col-3">
-            <div class="d-grid gap-2">
-                <NavLink class="btn btn-outline-primary" href="/admin/books"
-                         ActiveClass="btn-primary text-white" Match="NavLinkMatch.Prefix">Books</NavLink>
-                <NavLink class="btn btn-outline-primary" href="/admin/orders"
-                         ActiveClass="btn-primary text-white" Match="NavLinkMatch.Prefix">Orders</NavLink>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col" style="font-family:Chivo">
+                <span class="navbar-brand m-lg-2">Little Corner Bookstore Admin</span>
+            </div>
+            <div class="col-2 text-right" style="font-family:Chivo">
+                <a class="btn btn-sm btn-primary" href="/account/logout">Logout</a>
             </div>
         </div>
+    </div>
+    
+</div>
 
-        <div class="col">
-            @Body
+    <div class="container-fluid">
+        <div class="row p-2">
+            <div class="col-3">
+                <div class="d-grid gap-2">
+                    <NavLink class="btn btn-outline-primary" href="/admin/books"
+                             ActiveClass="btn-primary text-white" Match="NavLinkMatch.Prefix">Books</NavLink>
+                    <NavLink class="btn btn-outline-primary" href="/admin/orders"
+                             ActiveClass="btn-primary text-white" Match="NavLinkMatch.Prefix">Orders</NavLink>
+                </div>
+            </div>
+
+            <div class="col">
+                @Body
+            </div>
         </div>
     </div>
-</div>
