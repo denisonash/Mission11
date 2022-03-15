@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -34,6 +35,14 @@ namespace Mission7
             {
                 options.UseSqlite(Configuration["ConnectionStrings:BooksDBConnection"]);
             });
+
+            services.AddDbContext<AppIdentityDBContext>(options =>
+            {
+               options.UseSqlite(Configuration["ConnectionStrings:IdentityConnection"]);
+            });
+
+            services.AddIdentity<IdentityUser, IdentityRole>()
+                .AddEntityFrameworkStores<AppIdentityDBContext>();
 
             services.AddScoped<IBookstoreRepository, EFBookstoreRepository>();
             services.AddScoped<IPurchaseRepository, EFPurchaseRepository>();
@@ -65,6 +74,9 @@ namespace Mission7
             app.UseSession();
 
             app.UseRouting();
+
+            app.UseAuthentication();
+            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {

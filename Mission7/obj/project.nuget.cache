@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "VRpyLrDRJxr+A+QYUR8OVLl9/KeA8OuoLvbedPQDiteUgGZD+Bv8rCCfPx7/mVDJqYxkOQkSVAWf927tQdOd6Q==",
+  "dgSpecHash": "5CIxFu1fi5rHgEJ6bsUIgMpQs+Wi09J08pu+WrQfNsFGVDs4LA+NLnuFsyntMv0Y5KUbppCE6Tvq6QsJNkFVgw==",
   "success": true,
-  "projectFilePath": "/Users/ashleydenison/Documents/GitHub/Mission10Take1/Mission7/Mission7.csproj",
+  "projectFilePath": "/Users/ashleydenison/Documents/GitHub/Mission11/Mission7/Mission7.csproj",
   "expectedPackageFiles": [
+    "/Users/ashleydenison/.nuget/packages/microsoft.aspnetcore.cryptography.internal/3.1.22/microsoft.aspnetcore.cryptography.internal.3.1.22.nupkg.sha512",
+    "/Users/ashleydenison/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/3.1.22/microsoft.aspnetcore.cryptography.keyderivation.3.1.22.nupkg.sha512",
+    "/Users/ashleydenison/.nuget/packages/microsoft.aspnetcore.identity.entityframeworkcore/3.1.22/microsoft.aspnetcore.identity.entityframeworkcore.3.1.22.nupkg.sha512",
     "/Users/ashleydenison/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/ashleydenison/.nuget/packages/microsoft.bcl.hashcode/1.1.1/microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "/Users/ashleydenison/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
@@ -25,6 +28,8 @@
     "/Users/ashleydenison/.nuget/packages/microsoft.extensions.dependencyinjection/3.1.22/microsoft.extensions.dependencyinjection.3.1.22.nupkg.sha512",
     "/Users/ashleydenison/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/3.1.22/microsoft.extensions.dependencyinjection.abstractions.3.1.22.nupkg.sha512",
     "/Users/ashleydenison/.nuget/packages/microsoft.extensions.dependencymodel/3.1.6/microsoft.extensions.dependencymodel.3.1.6.nupkg.sha512",
+    "/Users/ashleydenison/.nuget/packages/microsoft.extensions.identity.core/3.1.22/microsoft.extensions.identity.core.3.1.22.nupkg.sha512",
+    "/Users/ashleydenison/.nuget/packages/microsoft.extensions.identity.stores/3.1.22/microsoft.extensions.identity.stores.3.1.22.nupkg.sha512",
     "/Users/ashleydenison/.nuget/packages/microsoft.extensions.logging/3.1.22/microsoft.extensions.logging.3.1.22.nupkg.sha512",
     "/Users/ashleydenison/.nuget/packages/microsoft.extensions.logging.abstractions/3.1.22/microsoft.extensions.logging.abstractions.3.1.22.nupkg.sha512",
     "/Users/ashleydenison/.nuget/packages/microsoft.extensions.options/3.1.22/microsoft.extensions.options.3.1.22.nupkg.sha512",
