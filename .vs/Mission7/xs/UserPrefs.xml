@@ -3,14 +3,30 @@
     <Files>
       <File FileName="Mission7/Models/AppIdentityDBContext.cs" Line="12" Column="10" />
       <File FileName="Mission7/appsettings.json" Line="13" Column="58" />
-      <File FileName="Mission7/Startup.cs" Line="41" Column="66" />
+      <File FileName="Mission7/Startup.cs" Line="109" Column="51" />
+      <File FileName="Mission7/Models/IdentitySeedData.cs" Line="8" Column="26" />
+      <File FileName="Mission7/Models/ViewModels/LoginModel.cs" Line="15" Column="2" />
+      <File FileName="Mission7/Views/Account/Login.cshtml" Line="25" Column="73" />
+      <File FileName="Mission7/Controllers/AccountController.cs" Line="58" Column="34" />
+      <File FileName="Mission7/Pages/Admin/Index.cshtml" Line="4" Column="23" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Mission7" expanded="True">
             <Node name="Mission7" expanded="True">
-              <Node name="Models" selected="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="ViewModels" expanded="True" />
+                <Node name="IdentitySeedData.cs" selected="True" />
+              </Node>
+              <Node name="Pages" expanded="True">
+                <Node name="Admin" expanded="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Account" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>

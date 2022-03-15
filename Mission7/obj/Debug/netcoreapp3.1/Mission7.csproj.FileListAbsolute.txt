@@ -456,3 +456,4 @@
 /Users/ashleydenison/Documents/GitHub/Mission11/Mission7/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 /Users/ashleydenison/Documents/GitHub/Mission11/Mission7/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Core.dll
 /Users/ashleydenison/Documents/GitHub/Mission11/Mission7/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Stores.dll
+/Users/ashleydenison/Documents/GitHub/Mission11/Mission7/obj/Debug/netcoreapp3.1/Razor/Views/Account/Login.cshtml.g.cs
